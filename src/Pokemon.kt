@@ -11,12 +11,11 @@ class Pokemon {
     constructor()
 
     // Constructores con parametros
-    constructor(nom:String, tipo:String, vida:Int, ataque:Int, defensa:Int) {
-        this.nombre = nom
+    constructor(nombre:String, tipo:String, vida:Int, ataque:Int, defensa:Int) {
+        this.nombre = nombre
         this.tipo = tipo
         this.vida = vida
         this.poder_ataque = ataque
         this.poder_defensa = defensa
     }
-
 }
